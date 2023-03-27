@@ -1,0 +1,52 @@
+.oculto {
+    display: none;
+
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+
+.cabecera__imagen {
+    width: 9.25rem;
+    height: 5.75rem;
+
+}
+
+.cabecera__boton {
+    width: 8.313rem;
+    height: 2.5rem;
+    border-color: greenyellow;
+    background-color: white;
+    margin-right: 2rem;
+
+}
+
+.cabecera-boton__texto {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.cabecera-busqueda__icono {
+    border: none;
+    background-color: white;
+}
+
+.cabecera-buscar__container {
+    display: flex;
+    border:none;
+    outline: none;
+
+}
+
+#cabecera__busqueda {
+    font-weight: bold;
+}

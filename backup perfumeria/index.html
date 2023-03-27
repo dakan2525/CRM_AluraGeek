@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florescentia</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+    
+
+    <script src="assets/scripts/scripts.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="cabecera">
+            <img id="prueba_ocultar" class="cabecera__imagen" src="assets/imagenes/Logo.png" alt="logo Florescentia">
+            <button id="ocultar_prueba" class="cabecera__boton"><a class="cabecera-boton__texto" href="#">Login</a></button>
+            <form class="cabecera-buscar__container">
+                <input type="search" id="cabecera__busqueda" name="busqueda" placeholder="Buscar..." class="oculto">
+                <button class="cabecera-busqueda__icono" type="button" onclick="mostrarBarra()"> <img src="assets/imagenes/buscar.svg" alt="barra de busqueda"></button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="banner">
+            <h2 class="banner__titulo">Abril a 30% de descuento</h2>
+            <p class="banner__parrafo">Los Mejores perfumes al mejor precio</p>
+            <button class="banner__boton"><a class="banner-boton__link" href="#">Ver Catalogo</a></button>
+        </section>
+
+        <section class="productos">
+            <h1 class="productos__titulo">Premium</h1>
+            <a class="ver-todos__link" href="#">Ver todo <span><img src="./assets/imagenes/arrowRight.svg" alt="flecha"></span></a>
+            <div class="productos-lista__container">
+                <img class="productos-lista__imagen" src="./assets/imagenes/gucci.jpg" alt="perfume gucci">
+                <h3 class="productos-lista__titulo">Perfume Gucci</h3>
+                <p class="productos-lista__precio"> &#36 50,00</p>
+                <a class="productos-lista__ver-producto" href="#">Ver producto</a>
+
+            </div>
+
+        </section>
+
+        <section class="productos">
+            <h1 class="productos__titulo">Premium</h1>
+            <a class="ver-todos__link" href="#">Ver todo <span><img src="./assets/imagenes/arrowRight.svg" alt="flecha"></span></a>
+            <div class="productos-lista__container">
+                <img class="productos-lista__imagen" src="./assets/imagenes/gucci.jpg" alt="perfume gucci">
+                <h3 class="productos-lista__titulo">Perfume Gucci</h3>
+                <p class="productos-lista__precio"> &#36 50,00</p>
+                <a class="productos-lista__ver-producto" href="#">Ver producto</a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    
+</body>
+<footer>
+
+</footer>
+</html>

@@ -1,0 +1,52 @@
+.oculto {
+    display: none;
+
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem ;
+    
+    
+}
+
+.cabecera__imagen {
+    width: 6.25rem;
+    height: 1.75rem;
+
+}
+
+.cabecera__boton {
+    width: 8.313rem;
+    height: 2.5rem;
+    border-color:  #2A7AE4;
+    background-color: white;
+    
+
+}
+
+.cabecera-boton__texto {
+    text-decoration: none;
+    color:#2A7AE4;
+    font-weight:600 ;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecera-busqueda__icono {
+    border: none;
+    background-color: white;
+}
+
+.cabecera-buscar__container {
+    display: flex;
+    border:none;
+    outline: none;
+
+}
+
+#cabecera__busqueda {
+    font-weight: bold;
+}

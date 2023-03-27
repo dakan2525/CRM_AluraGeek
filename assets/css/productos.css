@@ -1,0 +1,22 @@
+.productos {
+    display: grid;
+    grid-template-rows: repeat(3, 0.5fr);
+    grid-template-columns: repeat(2, 0.5fr);
+    
+
+}
+
+.productos__titulo {
+    
+}
+
+.productos-lista__container {
+    
+    
+}
+
+
+.productos-lista__imagen {
+    width: 9.75rem;
+    height: 10.875rem;
+}

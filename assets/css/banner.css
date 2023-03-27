@@ -1,0 +1,50 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/banner.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 13rem;
+    text-align: start;
+    justify-content:end;
+}
+
+.banner__titulo {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    margin-left: 1rem;
+    
+}
+
+.banner__parrafo {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem
+
+}
+
+.banner__boton {
+    background-color: #2A7AE4;
+    ;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem
+}
+
+.banner-boton__link {
+    text-decoration: none;
+    background-color: #2A7AE4;
+    color: white;
+
+}
