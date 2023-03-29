@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florescentia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/agregar.css">
+
+
+    <script src="assets/scripts/scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecera">
+            <img id="prueba_ocultar" class="cabecera__imagen" src="assets/imagenes/Logologo.png"
+                alt="logo Florescentia">
+            <button id="ocultar_prueba" class="cabecera__boton--agregar"><a class="cabecera-boton__texto"
+                    href="#">Menú Administrador</a></button>
+            <form class="cabecera-buscar__container">
+                <input type="search" id="cabecera__busqueda" name="busqueda" placeholder="¿Que Buscas?" class="oculto">
+                <button class="cabecera-busqueda__icono" type="button" onclick="mostrarBarra()"> <img
+                        src="assets/imagenes/buscar.svg" alt="barra de busqueda"></button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="agregar-producto">
+            <h2 class="agregar-producto__titulo">Agregar nuevo producto</h2>
+
+            <fieldset class="agregar-producto__contenedor">
+                <label class="agregar-producto__descripcion" for="campo__url">URL de la imagen</label>
+                <input class="agregar-producto__input" type="text" id="campo__url" name="input">
+            </fieldset>
+
+            <fieldset class="agregar-producto__contenedor">
+                <label class="agregar-producto__descripcion" for="campo__categoria">Categoría</label>
+                <input class="agregar-producto__input" type="text" id="campo__categoria" name="input">
+            </fieldset>
+
+            <fieldset class="agregar-producto__contenedor">
+                <label class="agregar-producto__descripcion" for="campo__producto">Nombre del producto</label>
+                <input class="agregar-producto__input" type="text" id="campo__producto" name="input">
+            </fieldset>
+
+            <fieldset class="agregar-producto__contenedor">
+                <label class="agregar-producto__descripcion" for="campo__precio">Precio del produtco</label>
+                <input class="agregar-producto__input" type="text" id="campo__precio" name="input">
+            </fieldset>
+
+            <fieldset class="agregar-producto__contenedor--descripcion">
+                <label class="agregar-producto__descripcion" for="campo__descripcion">Descripción del producto</label>
+                <input class="agregar-producto__input--descripcion" type="text" id="campo__descripcion" name="input">
+            </fieldset>
+
+            <button class="agregar-producto__boton-enviar">Agregar Producto</button>
+        </section>
+        
+
+    </main>
+    
+
+
+    <footer class="footer__container">
+
+        <div class="footer__quienes-somos">
+            <img class="footer__logo" src="assets/imagenes/Logo_footer.png" alt="Logo de Alura Greek">
+            <a class="footert__links" href="#">Quienes somos</a>
+            <a class="footert__links" href="#">Política de privacidad</a>
+            <a class="footert__links" href="#">Programa de fidelidad</a>
+            <a class="footert__links" href="#">Nuestras tiendas</a>
+            <a class="footert__links" href="#">Quiero ser franquiciado</a>
+            <a class="footert__links" href="#">Anúncie aquí</a>
+        </div>
+
+        <div class="footer__hable-con-nosotros">
+            <h3 class="footer__titulo">Hable con nosotros</h3>
+
+            <fieldset class="hable-con-nosotros__contenedor">
+                <label class="hable-con-nosotros__titulo" for="nombre__cliente">Nombre</label>
+                <input class="hable-con-nosotros__input" type="text" id="nombre__cliente" name="input">
+            </fieldset>
+
+            <fieldset class="hable-con-nosotros__contenedor">
+                <label class="hable-con-nosotros__titulo" for="mensaje__cliente">Escribe tu mensaje</label>
+                <textarea class="hable-con-nosotros__input--mesaje" name="mensaje" id="mensaje__cliente" cols="30"
+                    rows="2"></textarea>
+            </fieldset>
+
+
+            <button class="footer__boton-enviar">Enviar Mensaje</button>
+
+            <div class="footer-autor__contenedor">
+                <p class="footer__autor">Desarrollado por Andres Felipe Prado <br> 2023 &#169</p>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>

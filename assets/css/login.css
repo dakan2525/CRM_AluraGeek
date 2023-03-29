@@ -1,0 +1,50 @@
+.iniciar-sesion {
+    background-color: #E5E5E5;
+    
+}
+
+.iniciar-sesion__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 4rem;
+    
+}
+
+.iniciar-sesion__titulo {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.iniciar-sesion__correo {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 17.188rem;
+    height: 2.563rem;
+    text-align: center;
+    border:none;
+}
+
+.iniciar-sesion__password {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 17.188rem;
+    height: 2.563rem;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #C8C8C8;
+}
+
+.iniciar-sesion__boton {
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    width: 6.813rem;
+    height:2.5rem;
+}
+
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+
+
+    <script src="assets/scripts/scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecera">
+            <img id="prueba_ocultar" class="cabecera__imagen" src="assets/imagenes/Logologo.png"
+                alt="logo Florescentia">
+            <form class="cabecera-buscar__container">
+                <input type="search" id="cabecera__busqueda" name="busqueda" placeholder="¿Que Buscas?" class="oculto">
+                <button class="cabecera-busqueda__icono" type="button" onclick="mostrarBarra()"> <img
+                        src="assets/imagenes/buscar.svg" alt="barra de busqueda"></button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="todos-productos">
+            <h2 class="todos-productos__titulo">Todos los productos</h2>
+            <button class="todos-productos__agregar">Agregar producto</button>
+        </section>
+
+
+
+
+        <ul class="productos__lista">
+
+            <li class="productos-lista__contenedor">
+                <img class="productos-lista__imagen item" src="./assets/imagenes/Producto XYZ (2).png"
+                    alt="perfume gucci">
+                <h4 class="productos-lista__titulo item">Producto XYZ</h4>
+                <p class="productos-lista__precio item"> R&#36 50,00</p>
+                <p class="productos-lista__serie">#11111</p>
+            </li>
+
+            <li class="productos-lista__contenedor">
+                <img class="productos-lista__imagen item" src="./assets/imagenes/Producto XYZ (2).png"
+                    alt="perfume gucci">
+                <h4 class="productos-lista__titulo item">Producto XYZ</h4>
+                <p class="productos-lista__precio item"> R&#36 50,00</p>
+                <p class="productos-lista__serie">#11111</p>
+            </li>
+
+            <li class="productos-lista__contenedor">
+                <img class="productos-lista__imagen item" src="./assets/imagenes/Producto XYZ (2).png"
+                    alt="perfume gucci">
+                <h4 class="productos-lista__titulo item">Producto XYZ</h4>
+                <p class="productos-lista__precio item"> R&#36 50,00</p>
+                <p class="productos-lista__serie">#11111</p>
+            </li>
+
+            <li class="productos-lista__contenedor">
+                <img class="productos-lista__imagen item" src="./assets/imagenes/Producto XYZ (2).png"
+                    alt="perfume gucci">
+                <h4 class="productos-lista__titulo item">Producto XYZ</h4>
+                <p class="productos-lista__precio item"> R&#36 50,00</p>
+                <p class="productos-lista__serie">#11111</p>
+            </li>
+
+
+        </ul>
+
+    </main>
+
+
+
+    <footer class="footer__container">
+
+        <div class="footer__quienes-somos">
+            <img class="footer__logo" src="assets/imagenes/Logo_footer.png" alt="Logo de Alura Greek">
+            <a class="footert__links" href="#">Quienes somos</a>
+            <a class="footert__links" href="#">Política de privacidad</a>
+            <a class="footert__links" href="#">Programa de fidelidad</a>
+            <a class="footert__links" href="#">Nuestras tiendas</a>
+            <a class="footert__links" href="#">Quiero ser franquiciado</a>
+            <a class="footert__links" href="#">Anúncie aquí</a>
+        </div>
+
+        <div class="footer__hable-con-nosotros">
+            <h3 class="footer__titulo">Hable con nosotros</h3>
+
+            <fieldset class="hable-con-nosotros__contenedor">
+                <label class="hable-con-nosotros__titulo" for="nombre__cliente">Nombre</label>
+                <input class="hable-con-nosotros__input" type="text" id="nombre__cliente" name="input">
+            </fieldset>
+
+            <fieldset class="hable-con-nosotros__contenedor">
+                <label class="hable-con-nosotros__titulo" for="mensaje__cliente">Escribe tu mensaje</label>
+                <textarea class="hable-con-nosotros__input--mesaje" name="mensaje" id="mensaje__cliente" cols="30"
+                    rows="2"></textarea>
+            </fieldset>
+
+
+            <button class="footer__boton-enviar">Enviar Mensaje</button>
+
+            <div class="footer-autor__contenedor">
+                <p class="footer__autor">Desarrollado por Andres Felipe Prado <br> 2023 &#169</p>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

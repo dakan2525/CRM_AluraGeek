@@ -6,7 +6,7 @@
 .cabecera {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 1rem ;
     
@@ -24,15 +24,14 @@
     height: 2.5rem;
     border-color:  #2A7AE4;
     background-color: white;
-    
-
 }
 
 .cabecera-boton__texto {
     text-decoration: none;
     color:#2A7AE4;
-    font-weight:600 ;
     font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    font-size: 0.85rem;
 }
 
 .cabecera-busqueda__icono {
@@ -44,9 +43,17 @@
     display: flex;
     border:none;
     outline: none;
+    margin: 1rem ;
 
 }
 
 #cabecera__busqueda {
     font-weight: bold;
+}
+
+.cabecera__boton--agregar {
+    width: 10.375rem;
+    height: 2.5rem;
+    border-color:  #2A7AE4;
+    background-color: white;
 }

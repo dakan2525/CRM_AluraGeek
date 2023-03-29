@@ -1,0 +1,101 @@
+.footer__container, .footer__quienes-somos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #EAF2FD;
+}
+
+.footer__logo {
+    width: 11rem;
+    height: 3.125rem;
+    align-items: cente;
+    margin: 1rem;
+}
+
+.footert__links {
+    text-decoration: none;
+    font-weight: 500;
+    color:#464646;
+    margin-bottom: 1rem;
+    
+}
+
+.footer__hable-con-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    
+}
+
+.footer__titulo {
+    font-weight: 700; 
+    align-self: flex-start;  
+    margin-left: 1.25rem;
+    
+}
+
+.hable-con-nosotros__titulo {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #A2A2A2;
+    margin: 0.5rem 0 0.5rem 0;
+
+}
+
+.hable-con-nosotros__input {
+    border:none;
+}
+
+.hable-con-nosotros__input--mesaje {
+    border: none;
+    resize: none;
+}
+
+.footer__mensaje {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    align-self: center;
+    padding: 10px;
+}
+
+.footer__boton-enviar {
+    color: white;
+    background: #2A7AE4;
+    width: 8.313rem;
+    height: 2.5rem;
+    border:none;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+    margin-left: 1.25rem;
+}
+
+
+.footer-autor__contenedor {
+    background-color: white;
+    background-size: cover;
+    width: 100vw;
+}
+.footer__autor {
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.hable-con-nosotros__contenedor {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 85vw;
+    margin-bottom: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
